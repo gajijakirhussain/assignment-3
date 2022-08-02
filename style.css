@@ -35,6 +35,10 @@
         bottom: 0;
     }
 
+    .col-md-4 img {
+        height: 250px;
+    }
+
     .discover .col-md-8 {
         width: 100%;
         position: absolute;
