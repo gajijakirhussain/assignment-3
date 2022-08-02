@@ -22,6 +22,10 @@
     text-align: left;
 }
 
+.footer li {
+    list-style: none;
+}
+
 @media only screen and (max-width: 576px) {
     .discover {
         height: 370px;
@@ -45,7 +49,9 @@
         top: 0;
     }
 
-
+    .d-sm-none {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -55,5 +61,8 @@
         margin: auto;
     }
 
+    .d-sm-none {
+        display: none;
+    }
 
 }
