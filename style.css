@@ -1,7 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .carousel-item {
-    height: 800px;
+    height: 700px;
 }
 
 .carousel-item img {
     height: 100%;
+}
+
+.col-md-4 img {
+    height: 180px;
+    margin-left: -20px;
+    width: 100%;
+}
+
+.card-body {
+    text-align: left;
+}
+
+@media only screen and (max-width: 576px) {
+    .discover {
+        height: 370px;
+        position: relative;
+    }
+
+    .discover .col-md-4 {
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .discover .col-md-8 {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .discover {
+        width: 45%;
+        display: flex;
+        margin: auto;
+    }
 }
